@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="621a01ec-2e41-4d05-b2b7-fafe017c0951" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/AtomicCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/EachVsFor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +33,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -41,16 +40,19 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "/home/asaas/Downloads/java-utilities/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AtomicIntegerTest01">
+  <component name="RunManager" selected="Application.EachVsFor">
     <configuration name="AtomicIntegerTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrent.AtomicIntegerTest01" />
       <module name="java-utilities" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.*" />
+          <option name="PATTERN" value="desempenho.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,7 +65,33 @@
       <module name="java-utilities" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.*" />
+          <option name="PATTERN" value="desempenho.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EachVsFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desempenho.EachVsFor" />
+      <module name="java-utilities" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desempenho.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantLockTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.ReentrantLockTest01" />
+      <module name="java-utilities" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desempenho.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,6 +101,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EachVsFor" />
+        <item itemvalue="Application.ReentrantLockTest01" />
         <item itemvalue="Application.AtomicIntegerTest01" />
         <item itemvalue="Application.BlockingQueueTest01" />
       </list>
@@ -86,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685635666590</updated>
-      <workItem from="1685635668124" duration="844000" />
+      <workItem from="1685635668124" duration="2931000" />
     </task>
     <task id="LOCAL-00001" summary="upd: rename">
       <created>1685636139944</created>
@@ -95,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685636139944</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="AtomicCounter">
+      <created>1685636544278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685636544278</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ReentrantLock">
+      <created>1685636837303</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685636837303</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +147,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="upd: rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd: rename" />
+    <MESSAGE value="AtomicCounter" />
+    <MESSAGE value="ReentrantLock" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReentrantLock" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
